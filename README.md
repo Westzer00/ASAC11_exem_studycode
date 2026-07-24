@@ -1,24 +1,22 @@
-\# 스터디 실습 정리
+# ASAC 11 Practice
 
-이 브랜치는 Git/GitHub 실습 내용을 정리하기 위한 개인 브랜치입니다.
+ASAC 11기 스터디 실습 코드를 관리하기 위한 공용 저장소입니다.
 
+## 목적
 
+- Git/GitHub 실습 내용 관리
+- Python 및 AI 기초 스터디 코드 정리
+- 팀원별 브랜치 기반 실습 결과 공유
 
-\## 목적
+## 사용 방식
 
-\- Git 기본 명령어 실습
+각 팀원은 본인 이름의 브랜치를 만들어 작업합니다.
 
-\- 브랜치 생성 및 원격 저장소 push 연습
+예시:
 
-\- 이후 실습 코드 및 정리 내용 관리
-
-
-
-\## 진행 내용
-
-\- 개인 브랜치 생성: `shinsangha`
-
-\- 원격 저장소에 브랜치 push
-
-\- README.md 작성
-
+```text
+main
+├─ shinsangha
+├─ kimseoyeong
+├─ leeyonghyun
+└─ kimhyunmin
