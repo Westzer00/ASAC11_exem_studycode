@@ -12,5 +12,5 @@ I love machine learning.
 ```
 => 행렬 설계 (가중치는 임의로 계산함 !! )   
 
-
+### 출력결과
 ![alt text](image.png)
