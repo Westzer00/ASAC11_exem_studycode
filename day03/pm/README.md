@@ -10,7 +10,7 @@ output = weights @ V
 ```
 
 ## 2. 추가 실험
-- [ ] Q 값을 변경
-- [ ] K 값을 변경
-- [ ] Mask 적용
-- [ ] Attention Weight 비교
+- [x] Q 값을 변경
+- [x] K 값을 변경
+- [x] Mask 적용
+- [x] Attention Weight 비교
