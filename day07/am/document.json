@@ -1,5 +1,5 @@
 {
-  "documents": [
+  "documents" : [
     {"id":"C01","type":"명확한 사실","text":"NovaAir 보증기간은 3년이다."},
     {"id":"C02","type":"명확한 사실","text":"microSD는 최대 512GB를 지원한다."},
     {"id":"C03","type":"명확한 사실","text":"고객센터는 평일 9시부터 18시까지 운영한다."},
