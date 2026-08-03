@@ -1,0 +1,11 @@
+question_id,relevant_documents,answer
+Q001,DOC002,최소 3일 전에 그룹웨어에서 신청
+Q002,DOC002,최소 3일 전에 신청
+Q003,DOC002;DOC003;DOC004,VPN 사용 및 보안교육 필요
+Q004,DOC006,Jira에서 생성
+Q005,DOC010;DOC003;DOC004,VPN과 보안교육 확인
+Q006,DOC006;DOC004,Confluence
+Q007,DOC009;DOC005,본부장 승인
+Q008,DOC009,출장 종료 후 14일 이내
+Q009,DOC010;DOC004,VPN 사용
+Q010,DOC007,입사 등록 → 보안교육 → VPN → 프로젝트 배정

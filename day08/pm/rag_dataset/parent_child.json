@@ -1,0 +1,22 @@
+{
+  "DOC002": {
+    "parent": "HR Policy",
+    "children": [
+      "연차",
+      "반차",
+      "병가",
+      "재택근무",
+      "교육"
+    ]
+  },
+
+  "DOC004": {
+    "parent": "IT Guide",
+    "children": [
+      "VPN",
+      "GitLab",
+      "Jira",
+      "Confluence"
+    ]
+  }
+}

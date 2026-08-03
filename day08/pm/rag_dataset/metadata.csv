@@ -1,0 +1,11 @@
+document_id,file_name,title,department,document_type,category,tags,last_updated,access_level
+DOC001,01_company_policy.txt,Company Policy,Management,Policy,General,"company, policy, rule, organization",2025-07-01,Public
+DOC002,02_hr_policy.txt,HR Policy,HR,Policy,Human Resources,"hr, leave, vacation, attendance, remote work",2025-07-03,Internal
+DOC003,03_security_policy.txt,Security Policy,Security,Policy,Security,"security, vpn, password, mfa, access",2025-07-05,Confidential
+DOC004,04_it_system.txt,IT System Guide,Infrastructure,Guide,IT,"jira, gitlab, confluence, vpn, it",2025-07-08,Internal
+DOC005,05_organization.txt,Organization Guide,Management,Guide,Organization,"organization, manager, approval, team, role",2025-07-10,Public
+DOC006,06_project_manual.txt,Project Manual,Development,Manual,Project,"project, jira, gitlab, workflow, development",2025-07-12,Internal
+DOC007,07_employee_handbook.txt,Employee Handbook,HR,Handbook,Onboarding,"employee, onboarding, vpn, education, account",2025-07-15,Internal
+DOC008,08_meeting_minutes.txt,Meeting Minutes,Development,Meeting,Project,"meeting, decision, review, discussion",2025-07-18,Internal
+DOC009,09_business_trip_policy.txt,Business Trip Policy,Finance,Policy,Finance,"business trip, expense, approval, finance, vpn",2025-07-20,Internal
+DOC010,10_faq.txt,FAQ,Management,FAQ,Support,"faq, question, answer, guide",2025-07-22,Public

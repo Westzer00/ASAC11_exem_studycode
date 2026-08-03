@@ -1,0 +1,11 @@
+question_id,question,question_type
+Q001,연차는 언제 신청해야 하나요?,single
+Q002,휴가는 며칠 전에 신청해야 하나요?,rewrite
+Q003,재택근무하려면 무엇이 필요한가요?,multi_hop
+Q004,프로젝트는 어디에서 생성하나요?,single
+Q005,GitLab 접속이 안 되면 무엇부터 확인해야 하나요?,multi_hop
+Q006,프로젝트 문서는 어디에서 관리하나요?,single
+Q007,해외 출장은 누가 승인하나요?,multi_hop
+Q008,비용 정산은 언제까지 해야 하나요?,single
+Q009,집에서 회사 시스템을 사용하려면 어떻게 해야 하나요?,rewrite
+Q010,신입사원 첫 주 일정은 어떻게 되나요?,parent_child
