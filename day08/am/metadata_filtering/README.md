@@ -45,5 +45,5 @@ metadata_result.csv 저장
 ```
 ### 기능 추가
 기존 : 메타데이터를 하드코딩으로 입력   
-NEW : 메타데이터를 option으로 선택할수 있게 개선 
+NEW : 메타데이터를 option으로 선택할수 있게 개선   
 ![alt text](image.png)
