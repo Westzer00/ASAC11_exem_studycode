@@ -1,0 +1,38 @@
+[
+  {
+    "document_id": "DOC001",
+    "title": "LLM 서비스 배포 가이드",
+    "content": "LLM 서비스 2.1 버전의 배포 방법입니다.",
+    "department": "AI",
+    "document_type": "deployment-guide",
+    "version": "2.1",
+    "security_level": "internal"
+  },
+  {
+    "document_id": "DOC002",
+    "title": "LLM 서비스 구버전 배포 가이드",
+    "content": "LLM 서비스 1.0 버전의 배포 방법입니다.",
+    "department": "AI",
+    "document_type": "deployment-guide",
+    "version": "1.0",
+    "security_level": "internal"
+  },
+  {
+    "document_id": "DOC003",
+    "title": "재택근무 운영 규정",
+    "content": "재택근무 신청 및 승인 절차입니다.",
+    "department": "HR",
+    "document_type": "policy",
+    "version": "3.0",
+    "security_level": "internal"
+  },
+  {
+    "document_id": "DOC004",
+    "title": "A고객사 API 가이드",
+    "content": "A고객사의 API 인증 방식입니다.",
+    "department": "Development",
+    "document_type": "api-guide",
+    "version": "1.2",
+    "security_level": "confidential"
+  }
+]

@@ -1,0 +1,7 @@
+﻿document_id,title,department,document_type,version,security_level
+DOC002,,,,,
+DOC002,LLM 서비스 구버전 배포 가이드,,,,
+DOC002,LLM 서비스 구버전 배포 가이드,AI,,,
+DOC002,LLM 서비스 구버전 배포 가이드,AI,deployment-guide,,
+DOC002,LLM 서비스 구버전 배포 가이드,AI,deployment-guide,1.0,
+DOC002,LLM 서비스 구버전 배포 가이드,AI,deployment-guide,1.0,internal
