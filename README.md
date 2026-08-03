@@ -17,6 +17,6 @@ ASAC 11기 스터디 실습 코드를 관리하기 위한 공용 저장소입니
 ```text
 main
 ├─ shinsangha
-├─ kimseoyeong
+├─ kimseoyeong -> 김서영 개인 실습 브랜치
 ├─ leeyonghyun
 └─ kimhyunmin
