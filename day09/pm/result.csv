@@ -1,0 +1,3 @@
+﻿scenario,query,documents,status,answer
+scenario_1,Docker Compose PostgreSQL 운영 환경에서 비밀번호를 코드에 저장해도 되는가?,DOC_SECURITY,answered,"운영 환경에서는 비밀번호를 코드에 직접 저장하면 안 됩니다. 환경변수, Docker Secret 또는 Secret Manager를 사용해야 합니다. [출처: DOC_SECURITY]"
+scenario_2,Blue-Green 방식의 운영 배포 절차는 무엇인가?,DOC_DEPLOY,partial,"확인된 절차는 배포 승인, Green 환경 배포, 상태 확인입니다. 롤백 승인과 장애 대응 절차는 문서에서 확인되지 않아 추측해서 작성하지 않습니다. [출처: DOC_DEPLOY]"
