@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 BASE_DIR = Path(__file__).resolve().parent
 ROOT_DIR = BASE_DIR.parents[1]
 DATA_DIR = ROOT_DIR / "day08" / "pm" / "rag_dataset"
-RESULT_DIR = BASE_DIR / "results"
+RESULT_DIR = BASE_DIR
 
 # 기준값
 TOP_K = 3
