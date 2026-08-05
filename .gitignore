@@ -1,5 +1,7 @@
-# 환경변수 및 API 키
+# 환경 변수 및 비밀 정보
 .env
+.env.*
+!.env.example
 
 # Python 가상환경
 .venv/
@@ -11,3 +13,19 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# 실행 결과
+*.log
+*.pid
+nohup.out
+
+# SCP 실습 파일
+local.txt
+uploaded.txt
+
+# SSH Private Key
+.ssh/
+*.pem
+*.key
+id_rsa
+id_ed25519
