@@ -12,7 +12,8 @@ MAC 이용시에는 내 MAC 자체를 SSH 서버처럼 사용가능
 ```
 ![alt text](image-1.png)
 
-## 2. ssh.py 구조
+## 2. ssh.py 
+### 구조
 ```
 app.py
 ├─ 8000번 Port에서 실행
@@ -23,12 +24,12 @@ app.py
 └─ app.log
    └─ 요청 기록 저장
 ```
-### ssh.py 실행
+### 실행
 ```
 nohup python3 ssh.py > run.log 2>&1 &
 echo $! > ssh.pid
 ```
-구조
+코드 설명
 ```
 nohup python3 ssh.py > run.log 2>&1 &
 │     │       │       │         │
