@@ -1,4 +1,4 @@
-# Pointwise / Pairwise Judge
+# Pointwise·Pairwise Judge
 
 ## 실습 목적
 20개의 RAG 답변을 Pointwise와 Pairwise 방식으로 평가하는 실습

@@ -9,7 +9,7 @@ def make_data(question, context, rag, reference, answer_b, short, long):
         "long_answer": long,
     }
 
-
+# data는 자체 생성
 DATA = [
     make_data(
         "SSH는 무엇인가?",
@@ -39,7 +39,7 @@ DATA = [
         "IP 주소로 목적지 컴퓨터를 찾고 Port 번호로 그 컴퓨터에서 실행 중인 특정 서비스를 찾는다.",
     ),
     make_data(
-        "SSH의 -p 옵션은 무엇인가?",
+        "SSH의 -p 옵션은 무엇임?",
         "SSH 기본 Port는 22번이며 -p 옵션으로 다른 Port를 지정할 수 있다.",
         "-p는 SSH 접속에 사용할 Port 번호를 지정한다.",
         "-p는 기본 22번 대신 접속할 SSH Port를 지정하는 옵션이다.",
