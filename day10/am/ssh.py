@@ -15,10 +15,11 @@ class Handler(BaseHTTPRequestHandler):
             body = b'{"status":"ok"}'
             logging.info("GET /health 200")
 
+
         elif self.path == "/error":
             status = 500
-            body = b'{"status":"error"}'
-            logging.error("GET /error 500 test error")
+            body = b'{"status":"Error"}'
+            logging.error("GET /Error 500 test Error")
 
         else:
             status = 404

@@ -10,7 +10,7 @@ MAC 이용시에는 내 MAC 자체를 SSH 서버처럼 사용가능
    └─ SSH Server
       └─ Python 애플리케이션
 ```
-![alt text](image-1.png)
+![alt text](image-11.png)
 
 ## 2. ssh.py 
 ### 구조
@@ -46,27 +46,27 @@ echo $! > ssh.pid
 │    └─ 방금 백그라운드에서 실행한 프로세스의 PID
 └─ PID 출력
 ```
-![alt text](image.png)   
+![alt text](image-00.png)   
 => Python 서버의 PID가 91951임.
 
 ## 3. 기본 확인
 ### Python 프로세스 확인
 `cat ssh.pid`   
 `ps -p "$(cat ssh.pid)" -o pid,user,command`   
-![alt text](image-2.png)
+![alt text](image-22.png)
 
 ### Port 확인
 `lsof -nP -iTCP:8000 -sTCP:LISTEN`   
-![alt text](image-3.png)
+![alt text](image-33.png)
 
 ### Health API 호출
 `curl -i http://localhost:8000/health`   
-![alt text](image-4.png)   
+![alt text](image-44.png)   
 > HTTP 200 + {"status":"ok"} = 애플리케이션 정상 응답
 
 ### Log 확인
 `tail -n 100 app.log`   
-![alt text](image-5.png)   
+![alt text](image-55.png)   
 ```
 run.log
 └─ Python 실행 실패, 문법 오류, Port 충돌 등
@@ -77,11 +77,11 @@ app.log
 
 #### 오류 Log 생성
 `curl -i http://localhost:8000/error`   
-![alt text](image-6.png)   
+![alt text](image-66.png)   
 
 #### 오류 Log 검색
 `grep -i -n 'error' app.log`   
-![alt text](image-7.png)   
+![alt text](image-77.png)   
 
 ## 4. SCP 파일 전송
 1. `exit` SSH 접속 종료
@@ -95,7 +95,7 @@ scp local.txt <username>@localhost:~/ASAC_11_practice/day10/am/uploaded.txt
 │   └─ 로컬에서 보낼 원본 파일
 └─ SSH를 이용한 파일 전송 명령
 ```
-![alt text](image-8.png)   
+![alt text](image-88.png)   
 3. 전송결과 확인
 ```
 cd ~/ASAC_11_practice/day10/am
