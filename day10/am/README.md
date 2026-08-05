@@ -1,5 +1,5 @@
 # SSH로 원격 Linux 서버에 접속 & 프로세스·Port·로그를 확인
-## SSH 서버 켜기
+## 1. SSH 서버 켜기
 MAC 이용시에는 내 MAC 자체를 SSH 서버처럼 사용가능 
 ```
 내 Mac
@@ -12,7 +12,7 @@ MAC 이용시에는 내 MAC 자체를 SSH 서버처럼 사용가능
 ```
 ![alt text](image-1.png)
 
-## ssh.py 구조
+## 2. ssh.py 구조
 ```
 app.py
 ├─ 8000번 Port에서 실행
@@ -23,7 +23,7 @@ app.py
 └─ app.log
    └─ 요청 기록 저장
 ```
-## ssh.py 실행
+### ssh.py 실행
 ```
 nohup python3 ssh.py > run.log 2>&1 &
 echo $! > ssh.pid
@@ -47,21 +47,23 @@ echo $! > ssh.pid
 ```
 ![alt text](image.png)   
 => Python 서버의 PID가 91951임.
-## Python 프로세스 확인
+
+## 3. 기본 확인
+### Python 프로세스 확인
 `cat ssh.pid`   
 `ps -p "$(cat ssh.pid)" -o pid,user,command`   
 ![alt text](image-2.png)
 
-## Port 확인
+### Port 확인
 `lsof -nP -iTCP:8000 -sTCP:LISTEN`   
 ![alt text](image-3.png)
 
-## Health API 호출
+### Health API 호출
 `curl -i http://localhost:8000/health`   
 ![alt text](image-4.png)   
 > HTTP 200 + {"status":"ok"} = 애플리케이션 정상 응답
 
-## Log 확인
+### Log 확인
 `tail -n 100 app.log`   
 ![alt text](image-5.png)   
 ```
@@ -72,15 +74,15 @@ app.log
 └─ 서버 시작, Health 요청, 오류 요청 기록
 ```
 
-### 오류 Log 생성
+#### 오류 Log 생성
 `curl -i http://localhost:8000/error`   
 ![alt text](image-6.png)   
 
-### 오류 Log 검색
+#### 오류 Log 검색
 `grep -i -n 'error' app.log`   
 ![alt text](image-7.png)   
 
-## SCP 파일 전송
+## 4. SCP 파일 전송
 1. `exit` SSH 접속 종료
 2. `scp local.txt <username>@localhost:~/ASAC_11_practice/day10/am/uploaded.txt` 로컬에서 파일 전송
 ```
