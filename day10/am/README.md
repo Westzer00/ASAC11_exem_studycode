@@ -45,7 +45,7 @@ echo $! > ssh.pid
 │    └─ 방금 백그라운드에서 실행한 프로세스의 PID
 └─ PID 출력
 ```
-![alt text](image.png)
+![alt text](image.png)   
 => Python 서버의 PID가 91951임.
 ## Python 프로세스 확인
 `cat ssh.pid`   
@@ -100,4 +100,3 @@ pwd
 ls -l local.txt
 cat local.txt
 ```
-![alt text](image-9.png)   
